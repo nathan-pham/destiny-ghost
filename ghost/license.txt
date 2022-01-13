@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ghost Shell - Destiny
+* source:	https://sketchfab.com/3d-models/ghost-shell-destiny-97d45e76eb514f0688efac0be7e83dd5
+* author:	DenalCC1010 (https://sketchfab.com/DenalCC1010)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ghost Shell - Destiny" (https://sketchfab.com/3d-models/ghost-shell-destiny-97d45e76eb514f0688efac0be7e83dd5) by DenalCC1010 (https://sketchfab.com/DenalCC1010) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
