@@ -1,6 +1,6 @@
-import { Suspense, useEffect, useRef, useState } from "react"
+import { Suspense, useRef } from "react"
 import { Canvas, useFrame, useThree } from "@react-three/fiber"
-import { useGLTF, Text, Environment } from "@react-three/drei"
+import { useGLTF, Text } from "@react-three/drei"
 import * as THREE from "three"
 
 const Lights = () => {
@@ -54,6 +54,9 @@ const Model = ({ src }) => {
 
     return (
         <group scale={[0.1, 0.1, 0.1]} position={[0, 0, 0.1]} ref={model}>
+            <Text color="#fff" fontSize={0.5} position={[0, 2, 0]}>
+                Destiny 2 Ghost
+            </Text>
             {Object.values(nodes).map((o, i) => (
                 <primitive object={o} key={i} />
             ))}
@@ -66,7 +69,7 @@ const App = () => {
         <Suspense fallback={<p>loading...</p>}>
             <Canvas shadows camera={{ position: [0, 0, 1], fov: 75, near: 0.1, far: 10 }} gl={{ alpha: false, antialias: false }}>
                 <color attach="background" args={["white"]} />
-                <fog attach="fog" args={["#000", 0.8, 1]} />
+                <fog attach="fog" args={["#000", 0.9, 1]} />
                 <Model src="./ghost/scene.gltf" />
                 <Lights />
 
